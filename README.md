@@ -1,17 +1,22 @@
-# python-gemini-API
-This this project for student
-
+# D-D General Assistant
+Overview
+This Python script creates a Dungeons & Dragons (D&D) question-answering system using Google's Gemini 1.5 Flash model. It filters input to only respond to prompts related to D&D, based on a predefined keyword list.
 
 Step1
 pip install flask google-generativeai python-dotenv
 
 Step2
-สร้างไฟล์
-app.py (ตัวนี้คือ main สำหรับ run server)
-gemini_service.py (ใช้รับ service จาก gemini โดยดึง api_key จาก .env หลังจากยืนยันตัวตน)
-template (ใช้เก็บหน้า web .index)
-สร้างหน้า Web ด้วย index
+Create a file:
+app.py (this is the main file for running the server)
+gemini_service.py (used to receive services from gemini by retrieving the api_key from .env after authentication)
+template (used to store the .index web page)
+Create a web page with index
 
+Create an API
 
-สร้าง API
+Purpose and Use Case
+Ensures the AI stays focused on Dungeons & Dragons content.
 
+Can be used in chatbots, educational tools, Discord bots, or any fantasy RPG Q&A system.
+
+Prevents the model from answering unrelated questions.
