@@ -1,4 +1,4 @@
-# D-D General Assistant
+# D&D General Assistant
 Overview
 This Python script creates a Dungeons & Dragons (D&D) question-answering system using Google's Gemini 1.5 Flash model. It filters input to only respond to prompts related to D&D, based on a predefined keyword list.
 
